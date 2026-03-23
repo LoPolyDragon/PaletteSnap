@@ -1,0 +1,29 @@
+name: PaletteSnap
+options:
+  bundleIdPrefix: com.lopodragon
+  deploymentTarget:
+    iOS: "17.0"
+targets:
+  PaletteSnap:
+    type: application
+    platform: iOS
+    sources:
+      - PaletteSnap
+    info:
+      path: PaletteSnap/Info.plist
+      properties:
+        CFBundleIdentifier: com.lopodragon.PaletteSnap
+        CFBundleName: PaletteSnap
+        CFBundleDisplayName: PaletteSnap
+        CFBundleShortVersionString: "1.0"
+        CFBundleVersion: "1"
+        NSCameraUsageDescription: "PaletteSnap needs camera access to capture photos for color extraction."
+        NSPhotoLibraryUsageDescription: "PaletteSnap needs photo library access to select photos for color extraction."
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.lopodragon.PaletteSnap
+        MARKETING_VERSION: "1.0"
+        CURRENT_PROJECT_VERSION: "1"
+        SWIFT_VERSION: "5.0"
+        DEVELOPMENT_TEAM: ""
+        GENERATE_INFOPLIST_FILE: "YES"

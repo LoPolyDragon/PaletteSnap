@@ -11,6 +11,25 @@
 		AA0000000000000000000002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000000000000000000002 /* ContentView.swift */; };
 		AA0000000000000000000003 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB0000000000000000000003 /* Assets.xcassets */; };
 		AA0000000000000000000004 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB0000000000000000000004 /* Preview Assets.xcassets */; };
+		AA0000000000000000000011 /* ColorItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000000000000000000011 /* ColorItem.swift */; };
+		AA0000000000000000000012 /* Palette.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000000000000000000012 /* Palette.swift */; };
+		AA0000000000000000000013 /* PaletteFolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000000000000000000013 /* PaletteFolder.swift */; };
+		AA0000000000000000000021 /* ExtractTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000000000000000000021 /* ExtractTab.swift */; };
+		AA0000000000000000000022 /* PalettesTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000000000000000000022 /* PalettesTab.swift */; };
+		AA0000000000000000000023 /* SettingsTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000000000000000000023 /* SettingsTab.swift */; };
+		AA0000000000000000000024 /* ColorDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000000000000000000024 /* ColorDetailView.swift */; };
+		AA0000000000000000000025 /* PaletteCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000000000000000000025 /* PaletteCardView.swift */; };
+		AA0000000000000000000026 /* SavePaletteSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000000000000000000026 /* SavePaletteSheet.swift */; };
+		AA0000000000000000000027 /* ColorPickerSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000000000000000000027 /* ColorPickerSheet.swift */; };
+		AA0000000000000000000028 /* ColorHarmonySheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000000000000000000028 /* ColorHarmonySheet.swift */; };
+		AA0000000000000000000029 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000000000000000000029 /* MainTabView.swift */; };
+		AA0000000000000000000031 /* ColorExtractionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000000000000000000031 /* ColorExtractionService.swift */; };
+		AA0000000000000000000032 /* ColorHarmonyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000000000000000000032 /* ColorHarmonyService.swift */; };
+		AA0000000000000000000033 /* ImageExportService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000000000000000000033 /* ImageExportService.swift */; };
+		AA0000000000000000000034 /* HapticFeedbackService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000000000000000000034 /* HapticFeedbackService.swift */; };
+		AA0000000000000000000041 /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000000000000000000041 /* Color+Extensions.swift */; };
+		AA0000000000000000000042 /* Image+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000000000000000000042 /* Image+Extensions.swift */; };
+		AA0000000000000000000043 /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000000000000000000043 /* View+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +38,26 @@
 		BB0000000000000000000002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BB0000000000000000000003 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB0000000000000000000004 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BB0000000000000000000011 /* ColorItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorItem.swift; sourceTree = "<group>"; };
+		BB0000000000000000000012 /* Palette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Palette.swift; sourceTree = "<group>"; };
+		BB0000000000000000000013 /* PaletteFolder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaletteFolder.swift; sourceTree = "<group>"; };
+		BB0000000000000000000021 /* ExtractTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractTab.swift; sourceTree = "<group>"; };
+		BB0000000000000000000022 /* PalettesTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalettesTab.swift; sourceTree = "<group>"; };
+		BB0000000000000000000023 /* SettingsTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTab.swift; sourceTree = "<group>"; };
+		BB0000000000000000000024 /* ColorDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorDetailView.swift; sourceTree = "<group>"; };
+		BB0000000000000000000025 /* PaletteCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaletteCardView.swift; sourceTree = "<group>"; };
+		BB0000000000000000000026 /* SavePaletteSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavePaletteSheet.swift; sourceTree = "<group>"; };
+		BB0000000000000000000027 /* ColorPickerSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerSheet.swift; sourceTree = "<group>"; };
+		BB0000000000000000000028 /* ColorHarmonySheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorHarmonySheet.swift; sourceTree = "<group>"; };
+		BB0000000000000000000029 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		BB0000000000000000000031 /* ColorExtractionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtractionService.swift; sourceTree = "<group>"; };
+		BB0000000000000000000032 /* ColorHarmonyService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorHarmonyService.swift; sourceTree = "<group>"; };
+		BB0000000000000000000033 /* ImageExportService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageExportService.swift; sourceTree = "<group>"; };
+		BB0000000000000000000034 /* HapticFeedbackService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticFeedbackService.swift; sourceTree = "<group>"; };
+		BB0000000000000000000041 /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
+		BB0000000000000000000042 /* Image+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Image+Extensions.swift"; sourceTree = "<group>"; };
+		BB0000000000000000000043 /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		BB0000000000000000000051 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,10 +84,62 @@
 			children = (
 				BB0000000000000000000001 /* PaletteSnapApp.swift */,
 				BB0000000000000000000002 /* ContentView.swift */,
+				FF0000000000000000000010 /* Models */,
+				FF0000000000000000000020 /* Views */,
+				FF0000000000000000000030 /* Services */,
+				FF0000000000000000000040 /* Extensions */,
 				BB0000000000000000000003 /* Assets.xcassets */,
+				BB0000000000000000000051 /* Info.plist */,
 				HH0000000000000000000001 /* Preview Content */,
 			);
 			path = PaletteSnap;
+			sourceTree = "<group>";
+		};
+		FF0000000000000000000010 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BB0000000000000000000011 /* ColorItem.swift */,
+				BB0000000000000000000012 /* Palette.swift */,
+				BB0000000000000000000013 /* PaletteFolder.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FF0000000000000000000020 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BB0000000000000000000021 /* ExtractTab.swift */,
+				BB0000000000000000000022 /* PalettesTab.swift */,
+				BB0000000000000000000023 /* SettingsTab.swift */,
+				BB0000000000000000000024 /* ColorDetailView.swift */,
+				BB0000000000000000000025 /* PaletteCardView.swift */,
+				BB0000000000000000000026 /* SavePaletteSheet.swift */,
+				BB0000000000000000000027 /* ColorPickerSheet.swift */,
+				BB0000000000000000000028 /* ColorHarmonySheet.swift */,
+				BB0000000000000000000029 /* MainTabView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FF0000000000000000000030 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				BB0000000000000000000031 /* ColorExtractionService.swift */,
+				BB0000000000000000000032 /* ColorHarmonyService.swift */,
+				BB0000000000000000000033 /* ImageExportService.swift */,
+				BB0000000000000000000034 /* HapticFeedbackService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		FF0000000000000000000040 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BB0000000000000000000041 /* Color+Extensions.swift */,
+				BB0000000000000000000042 /* Image+Extensions.swift */,
+				BB0000000000000000000043 /* View+Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		GG0000000000000000000001 /* Products */ = {
@@ -139,6 +230,25 @@
 			files = (
 				AA0000000000000000000002 /* ContentView.swift in Sources */,
 				AA0000000000000000000001 /* PaletteSnapApp.swift in Sources */,
+				AA0000000000000000000011 /* ColorItem.swift in Sources */,
+				AA0000000000000000000012 /* Palette.swift in Sources */,
+				AA0000000000000000000013 /* PaletteFolder.swift in Sources */,
+				AA0000000000000000000021 /* ExtractTab.swift in Sources */,
+				AA0000000000000000000022 /* PalettesTab.swift in Sources */,
+				AA0000000000000000000023 /* SettingsTab.swift in Sources */,
+				AA0000000000000000000024 /* ColorDetailView.swift in Sources */,
+				AA0000000000000000000025 /* PaletteCardView.swift in Sources */,
+				AA0000000000000000000026 /* SavePaletteSheet.swift in Sources */,
+				AA0000000000000000000027 /* ColorPickerSheet.swift in Sources */,
+				AA0000000000000000000028 /* ColorHarmonySheet.swift in Sources */,
+				AA0000000000000000000029 /* MainTabView.swift in Sources */,
+				AA0000000000000000000031 /* ColorExtractionService.swift in Sources */,
+				AA0000000000000000000032 /* ColorHarmonyService.swift in Sources */,
+				AA0000000000000000000033 /* ImageExportService.swift in Sources */,
+				AA0000000000000000000034 /* HapticFeedbackService.swift in Sources */,
+				AA0000000000000000000041 /* Color+Extensions.swift in Sources */,
+				AA0000000000000000000042 /* Image+Extensions.swift in Sources */,
+				AA0000000000000000000043 /* View+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

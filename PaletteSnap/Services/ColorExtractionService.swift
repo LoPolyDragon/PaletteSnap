@@ -79,10 +79,10 @@ final class ColorExtractionService {
 
         // Convert to RGB pixels, sampling every few pixels for performance
         var pixels: [RGBPixel] = []
-        let stride = 2 // Sample every 2nd pixel
+        let sampleStride = 2 // Sample every 2nd pixel
 
-        for y in stride(from: 0, to: height, by: stride) {
-            for x in stride(from: 0, to: width, by: stride) {
+        for y in stride(from: 0, to: height, by: sampleStride) {
+            for x in stride(from: 0, to: width, by: sampleStride) {
                 let offset = (y * width + x) * bytesPerPixel
                 let r = Float(pixelData[offset]) / 255.0
                 let g = Float(pixelData[offset + 1]) / 255.0

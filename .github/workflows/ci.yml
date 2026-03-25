@@ -1,0 +1,35 @@
+name: CI - Build Check
+
+on:
+  push:
+    branches: [main, dev]
+  pull_request:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: macos-14
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Select Xcode
+        run: sudo xcode-select -s /Applications/Xcode_15.4.app/Contents/Developer
+
+      - name: Build
+        run: |
+          PROJ=$(find . -name "*.xcodeproj" -maxdepth 1 | head -1)
+          if [ -z "$PROJ" ]; then
+            echo "No Xcode project found"
+            exit 1
+          fi
+          SCHEME=$(xcodebuild -list -project "$PROJ" 2>/dev/null | awk '/Schemes:/{found=1; next} found && /^$/{exit} found{gsub(/^[ 	]+/, ""); print; exit}')
+          echo "Building $PROJ with scheme: $SCHEME"
+          xcodebuild build \
+            -project "$PROJ" \
+            -scheme "$SCHEME" \
+            -destination "platform=macOS" \
+            -configuration Debug \
+            CODE_SIGN_IDENTITY="" \
+            CODE_SIGNING_REQUIRED=NO \
+            CODE_SIGNING_ALLOWED=NO \
+            | tail -20
